@@ -1,0 +1,121 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Logs
+*.log
+logs/
+*.log.gz
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+.~*
+*.swp
+*.swo
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Data directories (ignore content but keep structure)
+data/uploads/*
+data/embeddings/*
+data/milvus/*
+!data/uploads/.gitkeep
+!data/embeddings/.gitkeep
+!data/milvus/.gitkeep
+
+# Node (if using JS tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Package managers
+.pip-cache/
+pip-log.txt
+
+# Cache
+.cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Sensitive files
+secrets/
+*.secret
+.credentials
+credentials.json
+
+# Keep .gitkeep files
+!.gitkeep
+
+# Ollama local models and installers
+Ollama/
+OllamaSetup.exe

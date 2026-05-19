@@ -1,0 +1,5 @@
+ I have 2 kinds of APIs 
+
+1) start from the endpoint of upload the documents and take this file and extract the text and chunk it and send those chunks to nomic-embed model to make embedding and tooke those embedding and store them in the milvus 
+
+2) when the user input a query it took this query and embed it by the embedding model and go to the milvus to search for similarities and get the top k relevant chunks and after that tke thos chunks with the user's query and send them to the qwen-model for generating the results finally take this output to the user 
